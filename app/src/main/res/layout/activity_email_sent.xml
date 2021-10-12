@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailSent"
+    android:fillViewport="true"
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    android:minHeight="600dp"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:text="@string/e_mail_enviado"
+        android:textColor="@color/purple"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:text="@string/foi_enviado_um_e_mail_com_um_link_com_informa_es_de_como_recuperar_seu_acesso_verifique_seu_e_mail"
+        android:textColor="@color/purple"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:id="@+id/hr_login"
+        android:layout_width="230dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/interface_on_login"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/emailsent" />
+
+
+    <Button
+        style="@style/ButtonDefault"
+        android:layout_marginTop="60dp"
+        android:onClick="navigationScreenLogin"
+        android:text="@string/voltar_para_o_login"
+        android:textAllCaps="false" />
+</LinearLayout>
+</ScrollView>

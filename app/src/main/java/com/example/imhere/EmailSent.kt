@@ -5,19 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class ForgotPassword : AppCompatActivity() {
+class EmailSent : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_forgot_password)
+        setContentView(R.layout.activity_email_sent)
     }
 
     fun navigationScreenLogin(view : View) {
         val intent = Intent(this, Login::class.java)
-        startActivity(intent)
-    }
-
-    fun navigationScreenEmailSent(view : View) {
-        val intent = Intent(this, EmailSent::class.java)
         startActivity(intent)
     }
 }

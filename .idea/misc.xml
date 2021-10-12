@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/layout/activity_email_sent.xml" value="0.1" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
         <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/layout/activity_login.xml" value="0.1331521739130435" />
         <entry key="app/src/main/res/drawable/buttondefault.xml" value="0.215625" />
         <entry key="app/src/main/res/drawable/buttondefaultpress.xml" value="0.215625" />

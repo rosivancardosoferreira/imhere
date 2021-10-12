@@ -16,8 +16,10 @@
     <string name="confirme_sua_senha">Confirme sua senha</string>
     <string name="recuperar_senha">Recuperar senha</string>
     <string name="informe_seu_e_mail_para_lhe_enviarmos_um_link_de_recupera_o_de_acesso">Informe seu e-mail para lhe enviarmos um link de recuperação de acesso</string>
-    <string name="voltar_para_o_login">Voltar para o login</string>
     <string name="registrar_agora">Registrar agora</string>
     <string name="save">Save</string>
     <string name="enviar">Enviar</string>
+    <string name="voltar_para_o_login">Voltar para o login</string>
+    <string name="e_mail_enviado">E-mail enviado</string>
+    <string name="foi_enviado_um_e_mail_com_um_link_com_informa_es_de_como_recuperar_seu_acesso_verifique_seu_e_mail">Foi enviado um e-mail com um link com informações de como recuperar seu acesso. Verifique seu e-mail.</string>
 </resources>

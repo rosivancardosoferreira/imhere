@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Imhere">
         <activity
+            android:name=".EmailSent"
+            android:exported="true" />
+        <activity
             android:name=".ForgotPassword"
             android:exported="true" />
         <activity
