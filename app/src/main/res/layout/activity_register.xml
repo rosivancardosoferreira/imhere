@@ -132,7 +132,7 @@
             <Button
                 style="@style/ButtonDefault"
                 android:layout_marginTop="40dp"
-                android:text="@string/login"
+                android:text="@string/save"
                 android:textAllCaps="false" />
         </LinearLayout>
     </RelativeLayout>

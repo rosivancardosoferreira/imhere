@@ -17,4 +17,7 @@
     <string name="recuperar_senha">Recuperar senha</string>
     <string name="informe_seu_e_mail_para_lhe_enviarmos_um_link_de_recupera_o_de_acesso">Informe seu e-mail para lhe enviarmos um link de recuperação de acesso</string>
     <string name="voltar_para_o_login">Voltar para o login</string>
+    <string name="registrar_agora">Registrar agora</string>
+    <string name="save">Save</string>
+    <string name="enviar">Enviar</string>
 </resources>

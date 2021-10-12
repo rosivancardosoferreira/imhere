@@ -89,8 +89,10 @@
                 android:textAllCaps="false" />
 
             <TextView
+                android:id="@+id/buttonLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="navigationScreenForgotPassword"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/open_sans_bold"
                 android:text="@string/esqueceu_sua_senha"
@@ -121,9 +123,11 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:fontFamily="@font/open_sans_bold"
-                android:text="Registrar agora"
+                android:text="@string/registrar_agora"
                 android:textColor="@color/dark_purple"
-                android:textSize="17sp" />
+                android:onClick="navigationScreenRegister"
+                android:textSize="17sp"
+                tools:ignore="UsingOnClickInXml" />
         </LinearLayout>
 
 
