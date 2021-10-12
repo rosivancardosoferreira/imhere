@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/layout/activity_login.xml" value="0.1331521739130435" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/drawable/buttondefault.xml" value="0.2203125" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/drawable/buttondefaultnormal.xml" value="0.2203125" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/drawable/buttondefaultpress.xml" value="0.2203125" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/joao/AndroidStudioProjects/imhere/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="app/src/main/res/drawable/buttondefault.xml" value="0.215625" />
         <entry key="app/src/main/res/drawable/buttondefaultpress.xml" value="0.215625" />
         <entry key="app/src/main/res/drawable/defaultbutton.xml" value="0.215625" />

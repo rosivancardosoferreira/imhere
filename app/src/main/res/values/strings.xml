@@ -10,4 +10,11 @@
     <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
     <string name="ainda_n_o_possui_uma_conta">Ainda não possui uma conta?</string>
     <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="registro">Registro</string>
+    <string name="nome">Nome</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="confirme_sua_senha">Confirme sua senha</string>
+    <string name="recuperar_senha">Recuperar senha</string>
+    <string name="informe_seu_e_mail_para_lhe_enviarmos_um_link_de_recupera_o_de_acesso">Informe seu e-mail para lhe enviarmos um link de recuperação de acesso</string>
+    <string name="voltar_para_o_login">Voltar para o login</string>
 </resources>

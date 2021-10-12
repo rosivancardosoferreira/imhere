@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         title.animation = bottomAnimation
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, Login::class.java)
+            val intent = Intent(this, ForgotPassword::class.java)
             startActivity(intent)
             finish()
         }, SPLASH_SCREEN.toLong())
