@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var topAnimation: Animation
     private lateinit var bottomAnimation: Animation
 
-    private lateinit var imageView: ImageView
+    private lateinit var imageView: TextView
     private lateinit var title: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity() {
         imageView = findViewById(R.id.hr_image)
         title = findViewById(R.id.title_text)
 
-        imageView.animation = topAnimation
-        title.animation = bottomAnimation
+        imageView.animation = bottomAnimation
+        title.animation = topAnimation
 
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, Login::class.java)

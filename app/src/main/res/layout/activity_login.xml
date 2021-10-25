@@ -6,20 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".Login"
     android:fillViewport="true"
+    android:background="@color/secondary_white"
     >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
-        <ImageView
-            android:id="@+id/hr_login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:contentDescription="@string/interface_on_login"
-            android:scaleType="centerCrop"
-            android:src="@drawable/login" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,21 +20,24 @@
             android:layout_marginBottom="50dp"
             android:minHeight="600dp"
             android:orientation="vertical"
-            android:paddingHorizontal="30dp">
+            android:paddingHorizontal="30dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            >
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="45dp"
-                android:fontFamily="@font/open_sans_semi_bold"
+                android:textAlignment="center"
+                android:fontFamily="@font/open_sans_bold"
                 android:text="@string/login"
-                android:textColor="@color/white"
-                android:textSize="40sp" />
+                android:textColor="@color/primary_blue"
+                android:textSize="30sp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="130dp"
                 android:layout_marginBottom="5dp"
                 android:fontFamily="@font/open_sans_semi_bold"
                 android:text="@string/e_mail"
@@ -57,13 +53,23 @@
                 android:fontFamily="@font/open_sans_semi_bold"
                 android:hint="@string/digite_seu_e_mail"
                 android:inputType="textEmailAddress"
+                android:maxLength="50"
                 android:textColor="@color/dark_gray"
                 android:textSize="17sp" />
+            <TextView
+                android:id="@+id/emptyEmail"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_semi_bold"
+                android:text="@string/este_campo_n_o_pode_ficar_em_branco"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="28dp"
                 android:layout_marginBottom="5dp"
                 android:fontFamily="@font/open_sans_semi_bold"
                 android:text="@string/senha"
@@ -80,34 +86,44 @@
                 android:hint="@string/digite_sua_senha"
                 android:inputType="textPassword"
                 android:textColor="@color/dark_gray"
+                android:maxLength="30"
                 android:textSize="17sp" />
 
+            <TextView
+                android:id="@+id/emptyPassword"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_semi_bold"
+                android:text="@string/este_campo_n_o_pode_ficar_em_branco"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
             <Button
+                android:id="@+id/buttonLogin"
                 style="@style/ButtonDefault"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="48dp"
                 android:text="@string/login"
                 android:textAllCaps="false" />
 
             <TextView
-                android:id="@+id/buttonLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="navigationScreenForgotPassword"
                 android:layout_marginTop="15dp"
-                android:fontFamily="@font/open_sans_bold"
+                android:fontFamily="@font/open_sans_semi_bold"
+                android:onClick="navigationScreenForgotPassword"
                 android:text="@string/esqueceu_sua_senha"
                 android:textAlignment="center"
-                android:textColor="@color/dark_purple"
+                android:textColor="@color/primary_gray"
                 android:textSize="18sp" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
-
             android:layout_alignParentBottom="true"
             android:orientation="vertical"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="30dp"
             >
             <TextView
                 android:layout_width="match_parent"
@@ -115,7 +131,8 @@
                 android:textAlignment="center"
                 android:fontFamily="@font/open_sans_regular"
                 android:text="@string/ainda_n_o_possui_uma_conta"
-                android:textColor="@color/purple"
+                android:textColor="@color/primary_gray"
+                android:layout_marginBottom="3dp"
                 android:textSize="17sp" />
 
             <TextView
@@ -124,15 +141,11 @@
                 android:textAlignment="center"
                 android:fontFamily="@font/open_sans_bold"
                 android:text="@string/registrar_agora"
-                android:textColor="@color/dark_purple"
+                android:textColor="@color/primary_blue"
                 android:onClick="navigationScreenRegister"
                 android:textSize="17sp"
+                android:paddingVertical="5dp"
                 tools:ignore="UsingOnClickInXml" />
         </LinearLayout>
-
-
-
-
-
     </RelativeLayout>
 </ScrollView>

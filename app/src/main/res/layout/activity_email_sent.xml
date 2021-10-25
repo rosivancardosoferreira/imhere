@@ -17,14 +17,15 @@
     android:orientation="vertical"
     android:paddingHorizontal="30dp">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:fontFamily="@font/open_sans_semi_bold"
+        android:fontFamily="@font/open_sans_bold"
         android:text="@string/e_mail_enviado"
-        android:textColor="@color/purple"
-        android:textSize="40sp" />
+        android:textColor="@color/primary_blue"
+        android:layout_marginTop="30dp"
+        android:textSize="35sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,7 +33,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/open_sans_semi_bold"
         android:text="@string/foi_enviado_um_e_mail_com_um_link_com_informa_es_de_como_recuperar_seu_acesso_verifique_seu_e_mail"
-        android:textColor="@color/purple"
+        android:textColor="@color/primary_gray"
         android:textSize="19sp" />
 
     <ImageView
@@ -48,9 +49,9 @@
 
 
     <Button
+        android:id="@+id/btnLogin"
         style="@style/ButtonDefault"
         android:layout_marginTop="60dp"
-        android:onClick="navigationScreenLogin"
         android:text="@string/voltar_para_o_login"
         android:textAllCaps="false" />
 </LinearLayout>
